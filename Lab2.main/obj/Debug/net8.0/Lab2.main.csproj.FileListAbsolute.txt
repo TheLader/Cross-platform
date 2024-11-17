@@ -1,0 +1,14 @@
+C:\Users\Богдан\Desktop\Проекти с#\KrossPlatform\Lab2.main\bin\Debug\net8.0\Lab2.main.exe
+C:\Users\Богдан\Desktop\Проекти с#\KrossPlatform\Lab2.main\bin\Debug\net8.0\Lab2.main.deps.json
+C:\Users\Богдан\Desktop\Проекти с#\KrossPlatform\Lab2.main\bin\Debug\net8.0\Lab2.main.runtimeconfig.json
+C:\Users\Богдан\Desktop\Проекти с#\KrossPlatform\Lab2.main\bin\Debug\net8.0\Lab2.main.dll
+C:\Users\Богдан\Desktop\Проекти с#\KrossPlatform\Lab2.main\bin\Debug\net8.0\Lab2.main.pdb
+C:\Users\Богдан\Desktop\Проекти с#\KrossPlatform\Lab2.main\obj\Debug\net8.0\Lab2.main.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Богдан\Desktop\Проекти с#\KrossPlatform\Lab2.main\obj\Debug\net8.0\Lab2.main.AssemblyInfoInputs.cache
+C:\Users\Богдан\Desktop\Проекти с#\KrossPlatform\Lab2.main\obj\Debug\net8.0\Lab2.main.AssemblyInfo.cs
+C:\Users\Богдан\Desktop\Проекти с#\KrossPlatform\Lab2.main\obj\Debug\net8.0\Lab2.main.csproj.CoreCompileInputs.cache
+C:\Users\Богдан\Desktop\Проекти с#\KrossPlatform\Lab2.main\obj\Debug\net8.0\Lab2.main.dll
+C:\Users\Богдан\Desktop\Проекти с#\KrossPlatform\Lab2.main\obj\Debug\net8.0\refint\Lab2.main.dll
+C:\Users\Богдан\Desktop\Проекти с#\KrossPlatform\Lab2.main\obj\Debug\net8.0\Lab2.main.pdb
+C:\Users\Богдан\Desktop\Проекти с#\KrossPlatform\Lab2.main\obj\Debug\net8.0\Lab2.main.genruntimeconfig.cache
+C:\Users\Богдан\Desktop\Проекти с#\KrossPlatform\Lab2.main\obj\Debug\net8.0\ref\Lab2.main.dll
