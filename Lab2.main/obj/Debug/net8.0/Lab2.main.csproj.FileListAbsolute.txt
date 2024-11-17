@@ -12,3 +12,4 @@ C:\Users\Богдан\Desktop\Проекти с#\KrossPlatform\Lab2.main\obj\Deb
 C:\Users\Богдан\Desktop\Проекти с#\KrossPlatform\Lab2.main\obj\Debug\net8.0\Lab2.main.pdb
 C:\Users\Богдан\Desktop\Проекти с#\KrossPlatform\Lab2.main\obj\Debug\net8.0\Lab2.main.genruntimeconfig.cache
 C:\Users\Богдан\Desktop\Проекти с#\KrossPlatform\Lab2.main\obj\Debug\net8.0\ref\Lab2.main.dll
+C:\Users\Богдан\Desktop\Проекти с#\KrossPlatform\Lab2.main\obj\Debug\net8.0\Lab2.main.sourcelink.json
