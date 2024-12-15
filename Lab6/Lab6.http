@@ -1,0 +1,8 @@
+@Lab6_HostAddress = http://localhost:3002
+
+GET {{Lab6_HostAddress}}/api/Customers
+GET {{Lab6_HostAddress}}/api/DateTime
+GET {{Lab6_HostAddress}}/api/Services
+Accept: application/json
+
+###
