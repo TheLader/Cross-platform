@@ -1,0 +1,25 @@
+﻿@model IEnumerable<CustomerViewModel>
+
+<h2>Customers</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Details</th>
+            <th>Company</th>
+            <th>Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var customer in Model)
+        {
+            <tr>
+                <td>@customer.CustomerId</td>
+                <td>@customer.CustomerDetails</td>
+                <td>@customer.CompanyName</td>
+                <td>@customer.CustomerTypeName</td>
+            </tr>
+        }
+    </tbody>
+</table>

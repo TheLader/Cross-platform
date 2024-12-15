@@ -1,0 +1,29 @@
+﻿@model IEnumerable<ServiceViewModel>
+
+<h2>Services</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Type Code</th>
+            <th>Type Name</th>
+            <th>Date</th>
+            <th>Distributor</th>
+            <th>Vendor</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var service in Model)
+        {
+            <tr>
+                <td>@service.ServiceTypeCode</td>
+                <td>@service.ServiceTypeName</td>
+                <td>@service.DateOfService.ToString("yyyy-MM-dd")</td>
+                <td>@service.DistributorName</td>
+                <td>@service.VendorName</td>
+                <td>@service.OtherDetails</td>
+            </tr>
+        }
+    </tbody>
+</table>

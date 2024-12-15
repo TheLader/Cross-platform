@@ -1,0 +1,29 @@
+﻿@model Lab5.Models.UserProfileViewModel;
+@{
+    ViewData["Title"] = "User Profile";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="row">
+            <h2>@ViewData["Title"]</h2>
+
+            <div class="col-md-2">
+                <img src="@Model.ProfileImage"
+                     alt="" class="img-rounded img-responsive" />
+            </div>
+            <div class="col-md-4">
+                <h3>FullName: @Model.FullName</h3>
+                <p>
+                    <i class="glyphicon glyphicon-envelope"></i>EmailAddress: @Model.EmailAddress
+                </p>
+                <p>
+                    <i class="glyphicon glyphicon-phone"></i>PhoneNumber: @Model.PhoneNumber
+                </p>
+                <p>
+                    <i class="glyphicon glyphicon-user"></i>Username: @Model.Username
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

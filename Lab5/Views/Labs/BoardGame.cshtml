@@ -1,0 +1,34 @@
+﻿@model Lab5.Models.BoardGameViewModel
+
+@{
+    ViewData["Title"] = "Board Game Result Checker";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="BoardGame" method="post">
+    <div class="form-group">
+        <label asp-for="M"></label>
+        <input asp-for="M" class="form-control" />
+        <span asp-validation-for="M" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="N"></label>
+        <input asp-for="N" class="form-control" />
+        <span asp-validation-for="N" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Отримати результат</button>
+</form>
+
+@if (Model.Result.HasValue)
+{
+    <div class="alert alert-success mt-3">
+        <strong>Результат:</strong> @(Model.Result == 1 ? "Перша позиція виграє" : "Друга позиція виграє")
+    </div>
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

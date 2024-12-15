@@ -1,0 +1,34 @@
+﻿@model Lab5.Models.MaxProfitViewModel
+
+@{
+    ViewData["Title"] = "Max Profit Calculator";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="MaxProfit" method="post">
+    <div class="form-group">
+        <label asp-for="PricesInput"></label>
+        <input asp-for="PricesInput" class="form-control" />
+        <span asp-validation-for="PricesInput" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PricesCount"></label>
+        <input asp-for="PricesCount" class="form-control" />
+        <span asp-validation-for="PricesCount" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Обчислити</button>
+</form>
+
+@if (Model.Result.HasValue)
+{
+    <div class="alert alert-success mt-3">
+        <strong>Максимальний прибуток:</strong> @Model.Result
+    </div>
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
